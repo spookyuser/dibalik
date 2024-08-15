@@ -4,7 +4,7 @@ export interface Environment {
 
 const corsHeaders = {
 	"Access-Control-Allow-Origin": "*",
-	"Access-Control-Allow-Methods": "GET,HEAD,POST,OPTIONS",
+	"Access-Control-Allow-Methods": "*,
 	"Access-Control-Max-Age": "86400",
 };
 function handleOptions(request: Request) {
